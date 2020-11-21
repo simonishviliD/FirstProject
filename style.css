@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background-color: gray;
+    overflow: scroll;
+    z-index: 1;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(228, 166, 166);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    background-color: rgb(186, 165, 207);
+    padding-left: 250px;
+    padding-top: 70px;
+    overflow: scroll;
+    padding-right: 25px;
+    background-color: rgb(245, 245, 248);
+}
+
+.dashboard{
+    display: grid;
+}
